@@ -1,0 +1,59 @@
+---
+---
+{% include header.html %}
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>RSVP</h2>
+							<p>To RSVP fill out the form below.</br></p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+							    
+							    <p>Please let us know if you're coming or not and who's coming with.</p>
+									<section>
+												<form method="post" action="https://formspree.io/buchho222@gmail.com">
+													<div class="row uniform">
+														<div class="6u 12u$(xsmall)">
+															<input type="text" name="name" id="rsvp-name" value="" placeholder="Name" />
+														</div>
+														<div class="6u$ 12u$(xsmall)">
+															<input type="email" name="email" id="rsvp-email" value="" placeholder="Email" />
+														</div>
+														<div class="4u 12u$(small)">
+															<input type="radio" value="Yes" id="attending-yes" name="rsvp" checked>
+															<label for="attending-yes">Attending</label>
+														</div>
+														<div class="4u$ 12u$(small)">
+															<input type="radio" value="No" id="attending-no" name="rsvp">
+															<label for="attending-no">Not Attending</label>
+														</div>
+														<div class="4u$ 12u$(small)">
+															No. Attending
+															<select name="partySize">
+															<label for="partySize">No. Attending</label>
+															  <option value="1">1</option>
+															  <option value="2">2</option>
+															  <option value="3">3</option>
+															  <option value="4">4</option>
+															  <option value="4">5</option>
+															  <option value="4">6</option>
+															</select>
+														</div>
+														<div class="12u$">
+															<textarea name="message" id="message" placeholder="Enter your message" rows="4"></textarea>
+														</div>
+														<div class="12u$">
+															<ul class="actions">
+																<li><input type="submit" value="Send Message" class="special" /></li>
+																<li><input type="reset" value="Reset" /></li>
+															</ul>
+														</div>
+													</div>
+												</form>
+											</section>
+											
+											</div>
+						</section>
+					</article>
+{% include footer.html %}
